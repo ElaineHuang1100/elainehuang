@@ -1,0 +1,5 @@
+2021/05/14:
+  -upload game
+  -only 沒有折扣 mode available
+  -10 items in total per menu
+  -60 seconds per game
