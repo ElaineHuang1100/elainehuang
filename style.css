@@ -1,0 +1,52 @@
+body
+{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+h1
+{
+	font-size: 72px;
+	color: white;
+}
+h2
+{
+	font-size: 36px;
+	color: white;
+}
+select
+{
+	background-color: black;
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+}
+table
+{
+	border: 1px solid white;
+	border-collapse: collapse;
+	font-size: 24px;
+	text-align: left;
+	width: 80%;
+}
+th
+{
+	border: 1px solid white;
+	font-weight: bold;
+	height: 50px;
+	text-align: center;
+}
+td
+{
+	border: 1px solid white;
+}
+.rule, .game, .timer, .score
+{
+	font-size: 36px;
+	color: white;
+}
+.yourAns
+{
+	font-size: 24px;
+	color: white;
+}

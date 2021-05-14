@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='stylesheet' href='style.css'>
+	<title>結帳價格計算</title>
+</head>
+<body>
+	<h1>結帳價格計算</h1>
+	<select class='mode' onclick='modeChange()'>
+		<option value='0'>請選擇難度</option>
+		<option value='1'>沒有折扣</option>
+		<option value='2'>單一品項折扣、有服務費</option>
+		<option value='3'>套餐</option>
+		<option value='4'>魔王餐廳</option>
+	</select>
+	<div class='timer'></div>
+	<div class='score'></div>
+	<div id='game'></div>
+	<div class='yourAns'></div>
+	<form>
+		<input id="Answer" type="hidden" placeholder="請輸入總額" autocomplete="off">
+	</form>
+	<div class='rule'>遊戲規則</div>
+	<script src='game.js'></script>
+</body>
+</html>
