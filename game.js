@@ -59,7 +59,7 @@ function end()
 	rule.textContent='按R重新開始';
 	//game.textContent='';
 	timer.textContent='';
-	Score.innerHTML='Score: '+(fscore<10?String(score):'0')+'<br>AC: '+String(score)+', WA: '+String(fscore);
+	Score.innerHTML=(fscore<10?'Time spent: '+String((t/10).toFixed(1))+' seconds':'You lose')+'<br>AC: '+String(score)+', WA: '+String(fscore);
 	yourAns.textContent='';
 }
 function genProb()//generate problem
@@ -133,9 +133,9 @@ function upd()//update
 function tupd()//time update
 {
 	t++;
-	timer.textContent='Time: '+String((Ttime-t/10).toFixed(1));
-	if(t>=Ttime*10) end();
-	if(fscore>=10) end();
+	timer.textContent='Time: '+String((t/10).toFixed(1));
+	//if(t>=Ttime*10) end();
+	if(score>=10||fscore>=10) end();
 }
 document.addEventListener('keydown', function(evt)
 {
