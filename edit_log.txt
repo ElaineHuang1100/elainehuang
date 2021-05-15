@@ -3,3 +3,6 @@
   -only 沒有折扣 mode available
   -10 items in total per menu
   -60 seconds per game
+2021/05/15:
+  -changed the timer into counting up
+  -10 problems per game
